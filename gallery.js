@@ -9,6 +9,7 @@ function upDate(previewPic){
     to the alt text of the preview image 
     */
    document.getElementById('image').innerHTML = previewPic.alt;
+   document.getElementById('image').style.backgroundImage="url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg')";
   
 	}
 
@@ -21,4 +22,6 @@ function upDate(previewPic){
     back to the original text.  You can use the html code to see what that original text was
     */
 		document.getElementById('image').innerHTML = 'Hover over an image below to display here.';
+        document.getElementById('image').style.backgroundColor="#8e68ff";
+        document.getElementById('image').style.backgroundImage="url('')";
 	}
